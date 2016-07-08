@@ -5,23 +5,19 @@ body{
     -webkit-font-smoothing: antialiased;
     background-color:#dddddd;
 }
-
 table {
 	border-collapse: collapse;
 }
-
 .main-container{
 	width: 100%;
 	border-collapse: collapse;
 	padding-top:20px;	
 }
-
 .main-container-with-padding{
 	padding-top: 20px;
 	width: 100%;
     vertical-align: top;
 }
-
 .main-header-container, .first-column-main-container, .second-column-main-container , .third-fourth-column-main-container , .fifth-colum-main-container , .news-headline-container{
 	width:600px;
 	margin:auto;
@@ -30,41 +26,6 @@ table {
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
     margin-bottom: 5px;
 }
-
-
-/* Email-Form Validation*/
-#Email-Address-val{
-	width: 85%;
-    margin-left: 17px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 11.5px;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-}
-
-#Email-Address-submit{
-	padding-left: 35px;
-    background-color: #9e7837;
-    width: 85%;
-    margin-left: 17px;
-    margin-top: 15px;
-    height: 36px;
-    color: white;
-    background-image: url(../images/envelope.png);
-    background-size: Auto 75%;
-    background-position-x: 22%;
-    background-position-y: 4px;
-    background-repeat: no-repeat;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 17px;
-}
-/*End Email-Form Validation*/
 
 /* Header*/
 .main-header-container{
@@ -97,7 +58,6 @@ table {
 	border-radius: 4px;
 	width:580px;
 }
-
 .first-column-text-container{
 	font-size: 13px; 
 	color: #959595; 
@@ -109,11 +69,9 @@ table {
 	padding:10px 8px 10px 8px;
 	background-color:#eeeeed;
 }
-
 .first-colum-main-text{
 	padding:0 10px 10px 0
 }
-
 .first-colum-main-text a{
 	text-decoration: none; 
 	color: #272727; 
@@ -128,7 +86,6 @@ table {
 .second-column-main-container{
 	background-color: #202022;
 }
-
 .second-column-text-container{
 	font-size: 12px; 
 	color: #959595; 
@@ -139,12 +96,19 @@ table {
 	vertical-align: top; 
 	padding:10px 8px 10px 8px;
 }
+.second-column-main-image-container{
+	padding-top:20px
+}
+.second-column-main-image-container a img{
+	border-radius: 4px; 
+	width: 267px; 
+	display: block;
+}
 .read-more-2nd-column-link{
 	padding:5px 0;
 	background-color:#9e7837; 
-	background-repeat:repeat-x
+	background-repeat:repeat-x;
 }
-
 .read-more-2nd-column-link a{
 	color:#ffffff;
     font-size:13px;
@@ -154,4 +118,187 @@ table {
     font-family:Arial, sans-serif;
     -webkit-text-size-adjust:none;
 }
+.second-column-text-header{
+	padding:0 10px 10px 0;
+}
+.second-column-text-header a{
+	text-decoration: none; 
+	font-size: 16px; 
+	color: #3c707e; 
+	font-weight: bold; 
+	font-family:Arial, sans-serif;
+}
 /*End Second Column Main Container*/
+
+/* Start Third and Fourth Container*/
+.third-fourth-image-main-container p{
+	margin:0px;
+}
+.third-fourth-image-main-container p a img{
+	border-radius: 4px; 
+	width: 267px;
+}
+.third-fourth-column-text-main-container{
+	font-size: 12px; 
+	color: #959595; 
+	font-weight: normal; 
+	text-align: left; 
+	font-family: Georgia, Times, serif; 
+	line-height: 24px; 
+	vertical-align: top; 
+	padding:10px 8px 10px 8px;
+}
+.third-fourth-column-text-main-container table{
+	border-bottom: 1px solid #333;
+}
+.third-fourth-column-text-main-container table tr td:first-child,.third-fourth-column-text-main-container table tr td:last-child{
+	padding:0 10px 10px 0;
+}
+.third-fourth-column-text-main-container table tr td:last-child a{
+	text-decoration: none; 
+	font-size: 16px; 
+	color: #363636; 
+	font-weight: bold; 
+	font-family:Arial, sans-serif; 
+}
+/*End Third and Fourth Container*/
+
+/*Start Fifth Container*/
+.fifth-column-text-header-container{
+	padding:10px 0 0 10px;
+}
+.fifth-column-text-header-container table tr td:first-child,.fifth-column-text-header-container table tr td:last-child{
+	padding:0 10px 10px 0;
+}
+.fifth-column-text-header-container table tr td:last-child a{
+	text-decoration: none; 
+	font-size: 16px; 
+	color: #3c707e; 
+	font-weight: bold; 
+	font-family:Arial, sans-serif; 
+}
+.fifth-container-image-container{
+	padding:10px 0;
+}
+
+.fifth-container-image-container p{
+	margin:0px;
+}
+.fifth-container-image-container p a img{
+	border-radius: 4px; 
+	width: 170px;
+}
+.fifth-container-text-container{
+	padding:0 10px 20px 10px;
+}
+.fifth-container-text-container a{
+	text-decoration: none; 
+	font-size: 14px; 
+	color: #3c707e; 
+	font-weight: bold; 
+	font-family:Arial, sans-serif;
+}
+.fifth-container-text-container p{
+	color:#ddd; 
+	text-align:left; 
+	font-size: 12px; 
+	line-height:17px
+}
+.fifth-container-text-container table tr td{
+	padding:2px 0 5px 0;
+	background-color: #9e7837; 
+	background-repeat:repeat-x;
+}
+.fifth-container-text-container table tr td a{
+	color:#333;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;                                                            
+    font-family:Arial, sans-serif;                                                            
+    -webkit-text-size-adjust:none;                                                                                                                        
+}
+/*End Fifth Container*/
+
+/*Start News Headline Column*/
+.news-headline-box-column-header{
+	background-color: #3c707e;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	-webkit-text-size-adjust:none;
+	padding:4px 8px;
+}
+.news-headline-text-container{
+	font-size:11px;
+	color:#656565;
+	text-align:left;
+	padding-left:8px;
+}
+.news-headline-text-container a{
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	text-align:left;
+	text-decoration:none;
+}
+/*End News Headline Column*/
+
+/* Email-Form Validation*/
+.news-letter-text-subscribe{
+	text-align:center;
+	font-size: 14px; 
+	color: white; 
+	font-family: Arial, sans-serif; 
+	padding-bottom:20px
+}
+#Email-Address-val{
+	width: 85%;
+    margin-left: 17px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11.5px;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+#Email-Address-submit{
+	padding-left: 35px;
+    background-color: #9e7837;
+    width: 85%;
+    margin-left: 17px;
+    margin-top: 15px;
+    height: 36px;
+    color: white;
+    background-image: url(../images/envelope.png);
+    background-size: Auto 75%;
+    background-position-x: 22%;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+.footer-company-info{
+	font-size: 11px; 
+	color: #f1f1f1; 
+	font-weight: normal; 
+	font-family: Georgia, Times, serif; 
+	line-height: 26px; 
+	vertical-align: top; 
+	text-align:right
+}
+.footer-company-info a{
+	text-decoration: none; 
+	color: #848484; 
+	font-weight: normal;
+}
+.footer-company-info a img{
+	padding-top: 5px; 
+	width: 100px
+}
+/*End Email-Form Validation*/
