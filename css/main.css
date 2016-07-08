@@ -221,6 +221,9 @@ table {
 /*End Fifth Container*/
 
 /*Start News Headline Column*/
+.news-headline-container{
+	padding-top: 15px;
+}
 .news-headline-box-column-header{
 	background-color: #3c707e;
 	color:#fff;
